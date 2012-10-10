@@ -1,0 +1,27 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.page {
+  height: 1500px;
+}
+.page#page-home {
+  background-color: #008000;
+}
+.page#page-about {
+  background-color: #f00;
+}
+.page#page-pricing {
+  background-color: #ffc0cb;
+}
+.page#page-signup {
+  background-color: #ff0;
+}
+#yield {
+  position: absolute;
+  top: 41px;
+  width: 100%;
+  overflow: auto;
+}

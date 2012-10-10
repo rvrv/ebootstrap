@@ -2,5 +2,22 @@
 html
   head
     title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body!= body
+    script(src='/javascripts/others/head.load.min.js')
+    script(src='/javascripts/app/$$._bootstrap.js')
+  body
+    div#loading
+    div.navbar.navbar-inverse.navbar-fixed-top#top-menu
+      div.navbar-inner
+        ul.nav
+          li#link-home
+            a(href="#home") Home
+          li#link-about
+            a(href="#about") About
+          li#link-pricing
+            a(href="#pricing") Pricing
+          li#link-signup
+            a(href="#signup") Signup
+    div#yield!= body
