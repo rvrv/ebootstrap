@@ -6,6 +6,7 @@ a {
 }
 .page {
   height: 1500px;
+  padding: 20px;
 }
 .page#page-home {
   background-color: #008000;
@@ -20,8 +21,13 @@ a {
   background-color: #ff0;
 }
 #yield {
-  position: absolute;
-  top: 41px;
-  width: 100%;
+  width: 80%;
+  min-width: 400px;
   overflow: auto;
+  margin: 0 auto;
+}
+#top-menu {
+  width: 80%;
+  margin: 0 auto;
+  min-width: 400px;
 }

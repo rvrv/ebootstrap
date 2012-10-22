@@ -9,6 +9,9 @@ head.js
 	'/javascripts/jquery/jquery-ui.min.js'+noCache,
 	'/javascripts/jquery/jquery.ba-hashchange.min.js'+noCache,
 	'/javascripts/jquery/jquery.scrollTo.min.js'+noCache,
+	'/javascripts/jquery/jquery.mousewheel.js'+noCache,
+	'/javascripts/jquery/jquery.mCustomScrollbar.min.js'+noCache,
+	'/javascripts/others/bootstrap.scrolspy.js'+noCache,
 	
 	// DoubleDollar
 	'/javascripts/$$/$$.js'+noCache,
